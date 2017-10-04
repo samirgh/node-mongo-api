@@ -9,7 +9,7 @@ const todos = [{
     text: 'Second test todo'
 }];
 
-// Clear DB before tests
+// Clear DB and add two (2) test items
 beforeEach((done) => {
     Todo.remove({}).then(() => {
         return Todo.insertMany(todos);    

@@ -40,5 +40,4 @@ app.listen(3000, () => {
     console.log('Started app at localhost:3000');
 });
 
-
 module.exports = { app };
